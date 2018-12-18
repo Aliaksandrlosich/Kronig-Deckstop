@@ -1,0 +1,35 @@
+{
+  "name": "kronig",
+  "version": "0.0.2",
+  "description": "KronigProgrammLosich",
+  "main": "index.html",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aliaksandrlosich/Kronig-Deckstop.git"
+  },
+  "author": "Aliaksandrlosich",
+  "window": {
+    "title": "KKR Demo",
+    "toolbar": false,
+    "width": 800,
+    "height": 550,
+    "max_width": 800,
+    "max_height": 550,
+    "icon": "img/icon.png"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aliaksandrlosich/Kronig-Deckstop/issues"
+  },
+  "homepage": "https://github.com/Aliaksandrlosich/Kronig-Deckstop#readme",
+  "dependencies": {
+    "webpack": "^4.26.0"
+  },
+  "devDependencies": {
+    "nw-builder": "^3.5.4",
+    "webpack-cli": "^3.1.2"
+  }
+}

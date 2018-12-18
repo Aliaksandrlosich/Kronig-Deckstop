@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Kronig</title>
+	<link rel="stylesheet"  href="style.css">
+</head>
+<body>
+	<header class="title">
+		<h2>Добро пожаловать в Программу Kronig, позволяющая из спектра отражения рассчитать оптические константы полупроводниковых и диэлектрических пленок.<h2>
+	</header>
+
+	<section class="startDataInput">
+		<h3>Введите колличество Выборок:</h3>
+   		<input type="text" id="input" class="input"></span>
+   		<input type="button" value="Принять" onclick="table()">
+   		<span id="status" class="status"></span>
+  	</section>
+
+  	<section >
+  		<table class="table" id="table">
+  			<thead class="thead">
+  				<tr>
+  				<th>s</th>
+  				<th>s</th>
+  				<th>s</th>
+  				<th>s</th>
+  				<th>s</th>
+  				</tr>
+  			</thead>
+  		</table>
+  	</section>
+
+	<footer class="footer">
+		<p>Пробная Версия.версия приложения: 0.0.2</p>
+	</footer>
+<!--<script src="./dist/bundle.js"></script>-->
+    <script src="./src/app.js"></script>
+</body>
+</html>

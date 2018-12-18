@@ -1,0 +1,48 @@
+body {
+	max-width: 800px;
+}
+.title {
+	height: 100px;
+	text-align: center;
+	font-size: 14px;
+	color: #caa9ff;
+}
+
+.startDataInput {
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+}
+
+.input {
+	margin: 10px;
+	padding: 2px;
+	color: #ff0000;
+	text-align: right;
+	border-radius: 10px;
+	width: 50px;
+}
+
+.status {
+	color: #ff0000;
+	margin: 10px;
+}
+
+.table {
+	margin: 0 auto;
+    width: 90%; /* Ширина таблицы */
+    border-spacing: 5px; /* Расстояние между ячейками */
+   }
+   
+.thead {
+	background-color: #ccc;
+	color: #333333;
+	font-size: 20px;
+	font-family: "Helvetica";
+}
+
+.footer {
+	height: 20px;
+	font-size: 13px;
+	text-align: right;
+}
